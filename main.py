@@ -6,9 +6,8 @@ import openpyxl
 from openpyxl.styles import Font
 
 def get_info():
-    all_data = []  # Собираем все данные здесь
+    all_data = [] 
     
-    # Перенесем неизменяемые параметры вне цикла
     headers = {
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
