@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pricing-partsruspares"
+version = "0.1.0"
+description = ""
+authors = ["GL1KK <danya_serov05@internet.ru>"]
+readme = "README.md"
+packages = [{include = "pricing"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.13.4"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
